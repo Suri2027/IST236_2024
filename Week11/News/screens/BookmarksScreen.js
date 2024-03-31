@@ -19,7 +19,7 @@ function BookmarksScreen() {
   if (bookmarkedNews.length === 0) {
     return (
       <View style={styles.rootContainer}>
-        <Text style={styles.text}>You Have no saved listings yet...</Text>
+        <Text style={styles.text}>You Have no saved news yet...</Text>
       </View>
     );
   } else {
